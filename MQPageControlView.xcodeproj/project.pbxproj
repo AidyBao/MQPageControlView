@@ -12,6 +12,8 @@
 		7A3F007F21251FA00084C8A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A3F007D21251FA00084C8A3 /* Main.storyboard */; };
 		7A3F008121251FA10084C8A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A3F008021251FA10084C8A3 /* Assets.xcassets */; };
 		7A3F008421251FA10084C8A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A3F008221251FA10084C8A3 /* LaunchScreen.storyboard */; };
+		7A3F008E21251FC30084C8A3 /* ZXPageControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3F008C21251FC30084C8A3 /* ZXPageControlView.swift */; };
+		7A3F008F21251FC30084C8A3 /* ZXUIPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3F008D21251FC30084C8A3 /* ZXUIPageControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		7A3F008021251FA10084C8A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A3F008321251FA10084C8A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A3F008521251FA20084C8A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A3F008C21251FC30084C8A3 /* ZXPageControlView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZXPageControlView.swift; sourceTree = "<group>"; };
+		7A3F008D21251FC30084C8A3 /* ZXUIPageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZXUIPageControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,11 +61,21 @@
 				7A3F007921251FA00084C8A3 /* AppDelegate.swift */,
 				7A3F007B21251FA00084C8A3 /* ViewController.swift */,
 				7A3F007D21251FA00084C8A3 /* Main.storyboard */,
+				7A3F008B21251FC30084C8A3 /* ZXPageContolView */,
 				7A3F008021251FA10084C8A3 /* Assets.xcassets */,
 				7A3F008221251FA10084C8A3 /* LaunchScreen.storyboard */,
 				7A3F008521251FA20084C8A3 /* Info.plist */,
 			);
 			path = MQPageControlView;
+			sourceTree = "<group>";
+		};
+		7A3F008B21251FC30084C8A3 /* ZXPageContolView */ = {
+			isa = PBXGroup;
+			children = (
+				7A3F008C21251FC30084C8A3 /* ZXPageControlView.swift */,
+				7A3F008D21251FC30084C8A3 /* ZXUIPageControl.swift */,
+			);
+			path = ZXPageContolView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +150,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A3F007C21251FA00084C8A3 /* ViewController.swift in Sources */,
+				7A3F008E21251FC30084C8A3 /* ZXPageControlView.swift in Sources */,
+				7A3F008F21251FC30084C8A3 /* ZXUIPageControl.swift in Sources */,
 				7A3F007A21251FA00084C8A3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
